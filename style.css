@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   background-color: #1c1c1c;
   color: #fff;
@@ -17,7 +18,8 @@ h6 {
 }
 
 .container {
-  max-width: 1150px;
+  box-sizing: border-box;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 15px;
@@ -154,4 +156,57 @@ main {
 .food-list_description {
   font-size: 16px;
   opacity: 0.7;
+}
+
+.order {
+  background-color: #312f30;
+  padding: 60px 0;
+}
+
+.order .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 90px;
+}
+
+.order-image {
+  max-width: 470px;
+  padding-right: 70px;
+}
+
+.order-text {
+  max-width: 370px;
+}
+
+.order-title {
+  margin-bottom: 25px;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.order-desc {
+  margin-bottom: 15px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.order-price {
+  color: #f6762c;
+  font-size: 20px;
+}
+
+.order-price--old {
+  text-decoration: line-through;
+  opacity: 0.7;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.order-price + .order-price--old {
+  margin-left: 5px;
+}
+
+.order .btn {
+  margin-top: 10px;
 }
