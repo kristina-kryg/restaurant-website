@@ -1,6 +1,10 @@
 # Pizza Website
 
-A clean, modern pizza landing page for an authentic Italian pizzeria. The site showcases signature pizzas, featured menu items, customer feedback, and a strong call-to-action for ordering.
+A pizza landing page for an authentic Italian pizzeria: the website showcases signature pizzas, featured menu items, customer feedback, and a strong call-to-action for ordering.
+
+## Live Demo
+
+https://kristina-kryg.github.io/restaurant-website/
 
 ## Overview
 
