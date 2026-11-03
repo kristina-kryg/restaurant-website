@@ -210,3 +210,143 @@ main {
 .order .btn {
   margin-top: 10px;
 }
+
+.product .container {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.product-desc {
+  position: absolute;
+  top: 70px;
+  opacity: 0.7;
+  max-width: 250px;
+}
+
+.product-card:nth-child(odd) .product-desc {
+  margin: 0px 30px 20px 300px;
+}
+
+.product-card:nth-child(even) .product-desc {
+  margin: 0px 300px 20px 30px;
+}
+
+.product-title {
+  position: absolute;
+  top: 30px;
+  font-size: 20px;
+}
+
+.product-card:nth-child(odd) .product-title {
+  margin: 0px 30px 20px 300px;
+}
+
+.product-card:nth-child(even) .product-title {
+  margin: 0px 300px 20px 30px;
+}
+
+/* FEEDBACK SECTION */
+
+.feedback {
+}
+
+.feedback .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.feedback-image {
+}
+
+.feedback-text {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.feedback-text::before {
+  content: url(./images/icons/quote.svg);
+}
+
+.feedback-desc {
+  text-align: center;
+  opacity: 0.7;
+  margin: 30px 0;
+}
+
+.feedback-author {
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Downlaod Section */
+
+.download {
+  padding: 30px 0;
+  background: #312f30;
+}
+
+.download .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.download-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+/* Footer Section */
+
+.footer {
+  padding: 120px 0;
+}
+
+.footer a {
+  opacity: 0.7;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  display: block;
+}
+
+.footer-link-mail {
+  display: block;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer-inner-list {
+  display: block;
+  line-height: 1.5rem;
+  padding: 10px 0;
+}
+
+.footer-socials-icons {
+  padding: 15px;
+}
