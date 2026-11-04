@@ -42,8 +42,11 @@ ul {
 }
 
 .header {
-  /* position: sticky; */
-  padding: 20px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: hwb(0 9% 91% / 0.902);
 }
 
 .header .container {
@@ -87,6 +90,25 @@ ul {
 .btn:hover {
   /* font-size: 17px; */
   opacity: 0.85;
+}
+
+.add-to-cart-btn {
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 13px 20px;
+  background: #83513b00;
+  color: hsl(0, 54%, 97%);
+  border: 1px solid #f6762c85;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background: oklab(79.28699999999999% 0.07199 0.12887 / 0.87);
+  border-color: #ffd477;
 }
 
 main {

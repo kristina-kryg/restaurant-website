@@ -16,3 +16,10 @@ backToTopButton.addEventListener("click", () => {
 });
 
 window.addEventListener("scroll", toggleBackToTopButton);
+
+let itemsInBasket = 0;
+function addItemToCart() {
+  itemsInBasket++;
+  let itemNumber = document.querySelector(".cart-item-number");
+  itemNumber.innerHTML = itemsInBasket;
+}
