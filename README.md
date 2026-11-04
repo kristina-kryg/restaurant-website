@@ -8,7 +8,7 @@ https://kristina-kryg.github.io/restaurant-website/
 
 ## Overview
 
-This project is a static website built with HTML and CSS. It includes:
+This project is a static website built with HTML, CSS and JS. It includes:
 
 - A hero section with a warm, restaurant-style design
 - Featured pizza menu cards
@@ -22,6 +22,7 @@ This project is a static website built with HTML and CSS. It includes:
 
 - HTML5
 - CSS3
+- JavaScript
 - Local image assets
 
 ## License
